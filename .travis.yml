@@ -1,6 +1,6 @@
 addons:
     code_climate:
-        repo_token: 2a3d383bfff69919569efd114d7e61d881dfdab1aac3728308fefa65ee01809d
+        repo_token: 8b1a02ad55e3d7586e5d7ef0a6b43be4a97e43d17dbb12c3c7bfa9cc30698d62
 language: php
 php:
   - '7.0'
@@ -10,7 +10,7 @@ script:
   - composer install --no-interaction --dev
   - pwd
   - vendor/bin/phpunit --debug --coverage-clover build/logs/clover.xml --whitelist src
-  - CODECLIMATE_REPO_TOKEN=2a3d383bfff69919569efd114d7e61d881dfdab1aac3728308fefa65ee01809d ./vendor/bin/test-reporter
+  - CODECLIMATE_REPO_TOKEN=8b1a02ad55e3d7586e5d7ef0a6b43be4a97e43d17dbb12c3c7bfa9cc30698d62 ./vendor/bin/test-reporter
 notifications:
   on_success: change
   on_failure: change
