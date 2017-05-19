@@ -1,6 +1,5 @@
 {
   "require": {
-    "atoum/atoum": "^3.0",
     "phpunit/phpunit": "^5.7"
   },
   "require-dev": {
@@ -8,7 +7,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jlttt\\TddChallenge\\": "src/"
+      "Jlttt\\Pentaminoes\\": "src/"
     }
   }
 }
