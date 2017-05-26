@@ -8,6 +8,6 @@ class Program
 {
     public function getDescription()
     {
-        return ' ';
+        return 'Pentaminoes';
     }
 }
